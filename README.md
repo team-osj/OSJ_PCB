@@ -1,7 +1,7 @@
 # PCB Data for OSJ Project
 ## Specification
 ### Current Sensing Board
-* Power Input - AC 90~240V 50~60HZ
+* Power Input - AC 90&#126;240V 50&#126;60HZ
 * Main MCU - Atmel Atmega328 With Arduino Bootloader
 * Current Sensor - Allegro ACS712 Hall Effect Sensor
 * Communication - Nordic NRF24L01 2.4Ghz
