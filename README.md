@@ -12,9 +12,9 @@
                   Nordic NRF24L01 2.4Ghz
 ## Image
 ### Current Sensing Board TOP
-![image](https://user-images.githubusercontent.com/82319443/221410920-dccda0cb-51f5-4db8-bfc4-b80c0c257f72.png)
+![image](https://github.com/team-osj/OSJ_PCB/blob/main/Image/ac_current_v1_top.png?raw=true)
 ### Current Sensing Board BOTTOM
-![image](https://user-images.githubusercontent.com/82319443/221410956-f75a10c5-5843-453a-90f6-b55756d113ca.png)
+![image](https://github.com/team-osj/OSJ_PCB/blob/main/Image/ac_current_v1_bottom.png?raw=true)
 ### Gateway Board TOP
 ![initial](https://github.com/Open-source-Setakki-Judgement-system/PCB/blob/main/Image/gateway_top.png?raw=true)
 ### Gateway Board BOTTOM
