@@ -1,4 +1,4 @@
-19660155050027636
+19702464625420043
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -40628,6 +40628,13 @@ RJ45 Magjack
 14
 13
 Connector_RJ
+RJ45_EVERCOM_5901-88112011
+
+
+0
+10
+9
+Connector_RJ
 RJ45_Hanrun_HR911105A
 http://www.kosmodrom.com.ua/pdf/HR911105A.pdf
 RJ45 Magjack
@@ -55174,6 +55181,13 @@ jst through hole tht vertical
 30
 30
 KIcad
+B1205S-1WR3
+
+
+0
+4
+4
+KIcad
 BAT_BH-18650-PC
 
 
@@ -55272,6 +55286,13 @@ D1_mini_board
 16
 16
 KIcad
+DHNF-02F
+
+
+0
+4
+1
+KIcad
 DHT11_Temperature_Humidity
 
 
@@ -55292,6 +55313,13 @@ DOUBLE_SIDED_TAB
 0
 0
 0
+KIcad
+DSHP02TSGER
+
+
+0
+4
+4
 KIcad
 Deans
 
@@ -55328,6 +55356,13 @@ FIDUCIAL_1mmX2mm
 1
 1
 KIcad
+FIL_DLW5ATN331MQ2L
+
+
+0
+4
+4
+KIcad
 FUSC6127X269N
 0452
 Fuse
@@ -55362,6 +55397,27 @@ Fish4
 0
 0
 0
+KIcad
+FishingScale
+
+
+0
+0
+0
+KIcad
+GMS0205
+
+
+0
+4
+4
+KIcad
+GMS0505
+
+
+0
+5
+5
 KIcad
 GMS1012
 
@@ -55447,6 +55503,13 @@ Inductor_1011.4
 2
 2
 KIcad
+JGS_Logo
+
+
+0
+0
+0
+KIcad
 JK_HX711
 
 
@@ -55460,6 +55523,13 @@ LED_BUTTON_22MM
 0
 0
 0
+KIcad
+LED_BUTTON_22MM_PAD
+
+
+0
+4
+4
 KIcad
 Logo_5mm
 
@@ -55545,6 +55615,13 @@ MSOP-10_MSE
 11
 11
 KIcad
+MTS-202
+
+
+0
+6
+6
+KIcad
 NR6045T100M
 
 
@@ -55615,6 +55692,13 @@ OLED
 4
 4
 KIcad
+PC817
+
+
+0
+4
+4
+KIcad
 PDWS-1205
 
 
@@ -55650,6 +55734,13 @@ Photoresistor
 3
 3
 KIcad
+PinSocket_1x08_P2.54mm_Vertical_1.61.60.8
+Through hole straight socket strip, 1x08, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x08 2.54mm single row
+0
+8
+8
+KIcad
 Pro Micro(32u4)
 
 
@@ -55670,6 +55761,13 @@ RDS3216
 0
 0
 0
+KIcad
+RESCAV63P320X160X65-10N
+
+
+0
+10
+10
 KIcad
 RFID
 
@@ -55860,6 +55958,20 @@ SMB Jack  Striaght
 5
 2
 KIcad
+SMD_762
+
+
+0
+6
+3
+KIcad
+SMD_762_MountHole
+
+
+0
+0
+0
+KIcad
 SO08
 <h3>SOIC -8</h3><p>Specifications:<ul><li>Pin count: 8</li><li>Width: 0.15"</li></ul></p><p>Example device(s):<ul><li>MCP2551</li></ul></p>
 
@@ -55873,6 +55985,13 @@ SO16
 0
 16
 16
+KIcad
+SOIC127P599X175-8N
+
+
+0
+8
+8
 KIcad
 SOIC127P600X170-9N
 
@@ -55909,6 +56028,13 @@ SOIC127P1032X265-20N
 20
 20
 KIcad
+SOIC254P1030X460-4N
+
+
+0
+4
+4
+KIcad
 SOP65P780X200-16N
 
 
@@ -55944,6 +56070,13 @@ Sparkfun_HX711
 10
 10
 KIcad
+TE-5555980-1-0-0-MFG
+
+
+0
+4
+4
+KIcad
 TE_1-338088-3
 
 
@@ -55957,6 +56090,13 @@ TE_5555165-1
 0
 6
 6
+KIcad
+TE_Connectivity-5520426-4-0-0-MFG
+
+
+0
+8
+8
 KIcad
 TP4056_SOP-8-PP
 8-Lead Plastic SOP-8-PP
@@ -55978,6 +56118,13 @@ TX3000
 0
 6
 5
+KIcad
+TYPEC31M17
+TYPE-C-31-M-17-1
+Connector
+0
+10
+10
 KIcad
 Tare
 
@@ -56126,6 +56273,20 @@ Wurth_Electronics-744031220-MFG
 2
 2
 KIcad
+caution
+
+
+0
+0
+0
+KIcad
+caution2
+
+
+0
+0
+0
+KIcad
 inductor 77
 
 
@@ -56172,8 +56333,15 @@ nrf24l01 smd
 
 
 0
+10
 8
-8
+KIcad
+qrcode
+
+
+0
+0
+0
 KIcad
 rfid_logo
 
@@ -83362,6 +83530,13 @@ transformer flyback
 0
 10
 10
+Transformer_THT
+ZMCT103C
+
+
+0
+2
+2
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins

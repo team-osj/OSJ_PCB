@@ -1,4 +1,4 @@
-19678592836294155
+19699056584405530
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -40628,6 +40628,13 @@ RJ45 Magjack
 14
 13
 Connector_RJ
+RJ45_EVERCOM_5901-88112011
+
+
+0
+10
+9
+Connector_RJ
 RJ45_Hanrun_HR911105A
 http://www.kosmodrom.com.ua/pdf/HR911105A.pdf
 RJ45 Magjack
@@ -55174,6 +55181,13 @@ jst through hole tht vertical
 30
 30
 KIcad
+B1205S-1WR3
+
+
+0
+4
+4
+KIcad
 BAT_BH-18650-PC
 
 
@@ -55377,6 +55391,27 @@ Fish4
 0
 0
 KIcad
+FishingScale
+
+
+0
+0
+0
+KIcad
+GMS0205
+
+
+0
+4
+4
+KIcad
+GMS0505
+
+
+0
+0
+0
+KIcad
 GMS1012
 
 
@@ -55461,6 +55496,13 @@ Inductor_1011.4
 2
 2
 KIcad
+JGS_Logo
+
+
+0
+0
+0
+KIcad
 JK_HX711
 
 
@@ -55474,6 +55516,13 @@ LED_BUTTON_22MM
 0
 0
 0
+KIcad
+LED_BUTTON_22MM_PAD
+
+
+0
+4
+4
 KIcad
 Logo_5mm
 
@@ -55706,6 +55755,13 @@ RDS3216
 0
 0
 KIcad
+RESCAV63P320X160X65-10N
+
+
+0
+10
+10
+KIcad
 RFID
 
 
@@ -55902,6 +55958,13 @@ SMD_762
 6
 3
 KIcad
+SMD_762_MountHole
+
+
+0
+0
+0
+KIcad
 SO08
 <h3>SOIC -8</h3><p>Specifications:<ul><li>Pin count: 8</li><li>Width: 0.15"</li></ul></p><p>Example device(s):<ul><li>MCP2551</li></ul></p>
 
@@ -55915,6 +55978,13 @@ SO16
 0
 16
 16
+KIcad
+SOIC127P599X175-8N
+
+
+0
+8
+8
 KIcad
 SOIC127P600X170-9N
 
@@ -55950,6 +56020,13 @@ SOIC127P1032X265-20N
 0
 20
 20
+KIcad
+SOIC254P1030X460-4N
+
+
+0
+4
+4
 KIcad
 SOP65P780X200-16N
 
@@ -56249,8 +56326,15 @@ nrf24l01 smd
 
 
 0
+10
 8
-8
+KIcad
+qrcode
+
+
+0
+0
+0
 KIcad
 rfid_logo
 

@@ -1,0 +1,541 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 63C44298
+P 7650 3050
+F 0 "J?" H 7730 3042 50  0000 L CNN
+F 1 "RST" H 7730 2951 50  0000 L CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal" H 7650 3050 50  0001 C CNN
+F 3 "~" H 7650 3050 50  0001 C CNN
+	1    7650 3050
+	1    0    0    -1  
+$EndComp
+Text Label 7450 3050 2    50   ~ 0
+EN
+Text Label 6600 4000 0    50   ~ 0
+TX
+Text Label 6600 3900 0    50   ~ 0
+RX
+Text Label 6600 3200 0    50   ~ 0
+RX_DEBUG
+Text Label 6600 3000 0    50   ~ 0
+TX_DEBUG
+Text Label 6600 2900 0    50   ~ 0
+IO0
+$Comp
+L power:+3.3V #PWR?
+U 1 1 63C27E89
+P 4550 3700
+F 0 "#PWR?" H 4550 3550 50  0001 C CNN
+F 1 "+3.3V" H 4565 3873 50  0000 C CNN
+F 2 "" H 4550 3700 50  0001 C CNN
+F 3 "" H 4550 3700 50  0001 C CNN
+	1    4550 3700
+	1    0    0    -1  
+$EndComp
+Text Label 5400 2900 2    50   ~ 0
+EN
+Text Label 4800 3900 0    50   ~ 0
+EN
+Connection ~ 4550 3900
+$Comp
+L Device:C_Small C?
+U 1 1 63C27E80
+P 4550 4000
+F 0 "C?" H 4642 4046 50  0000 L CNN
+F 1 "100nf" H 4642 3955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4550 4000 50  0001 C CNN
+F 3 "~" H 4550 4000 50  0001 C CNN
+	1    4550 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 3900 4550 3900
+$Comp
+L Device:R_Small_US R?
+U 1 1 63C27E79
+P 4550 3800
+F 0 "R?" H 4618 3846 50  0000 L CNN
+F 1 "10k" H 4618 3755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4550 3800 50  0001 C CNN
+F 3 "~" H 4550 3800 50  0001 C CNN
+	1    4550 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 63C27E66
+P 6400 2700
+F 0 "#PWR?" H 6400 2550 50  0001 C CNN
+F 1 "+3.3V" V 6415 2828 50  0000 L CNN
+F 2 "" H 6400 2700 50  0001 C CNN
+F 3 "" H 6400 2700 50  0001 C CNN
+	1    6400 2700
+	0    1    1    0   
+$EndComp
+NoConn ~ 6600 5200
+NoConn ~ 5400 4100
+NoConn ~ 5400 4200
+NoConn ~ 5400 4300
+NoConn ~ 5400 4400
+NoConn ~ 5400 4500
+NoConn ~ 5400 4600
+NoConn ~ 6600 3400
+NoConn ~ 6600 3500
+NoConn ~ 6600 3800
+NoConn ~ 6600 3700
+NoConn ~ 6600 3300
+Text Label 6600 4700 0    50   ~ 0
+M1
+Text Label 6600 4600 0    50   ~ 0
+M2
+Text Label 6600 4500 0    50   ~ 0
+PWR_USB
+Text Label 6600 4800 0    50   ~ 0
+USER_3
+Text Label 6600 4900 0    50   ~ 0
+USER_4
+Text Label 6600 5100 0    50   ~ 0
+MODE
+$Comp
+L RF_Module:ESP32-WROOM-32U U?
+U 1 1 63C27E33
+P 6000 4100
+F 0 "U?" H 6050 2650 50  0000 L CNN
+F 1 "ESP32-WROOM-32U" H 6050 2750 50  0000 L CNN
+F 2 "RF_Module:ESP32-WROOM-32U" H 6000 2600 50  0001 C CNN
+F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf" H 5700 4150 50  0001 C CNN
+	1    6000 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 64CEB785
+P 6000 5500
+F 0 "#PWR?" H 6000 5250 50  0001 C CNN
+F 1 "GND" H 6005 5327 50  0000 C CNN
+F 2 "" H 6000 5500 50  0001 C CNN
+F 3 "" H 6000 5500 50  0001 C CNN
+	1    6000 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 64CF9DA1
+P 4550 4100
+F 0 "#PWR?" H 4550 3850 50  0001 C CNN
+F 1 "GND" H 4555 3927 50  0000 C CNN
+F 2 "" H 4550 4100 50  0001 C CNN
+F 3 "" H 4550 4100 50  0001 C CNN
+	1    4550 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 64D0A735
+P 7450 3150
+F 0 "#PWR?" H 7450 2900 50  0001 C CNN
+F 1 "GND" H 7455 2977 50  0000 C CNN
+F 2 "" H 7450 3150 50  0001 C CNN
+F 3 "" H 7450 3150 50  0001 C CNN
+	1    7450 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 64D2E2AB
+P 700 6900
+F 0 "H?" H 800 6949 50  0000 L CNN
+F 1 "MountingHole_Pad" H 800 6858 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 700 6900 50  0001 C CNN
+F 3 "~" H 700 6900 50  0001 C CNN
+	1    700  6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 64D34B9B
+P 1650 6900
+F 0 "H?" H 1750 6949 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1750 6858 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1650 6900 50  0001 C CNN
+F 3 "~" H 1650 6900 50  0001 C CNN
+	1    1650 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 64D36CDD
+P 1650 7400
+F 0 "H?" H 1750 7449 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1750 7358 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1650 7400 50  0001 C CNN
+F 3 "~" H 1650 7400 50  0001 C CNN
+	1    1650 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 64D38A95
+P 700 7400
+F 0 "H?" H 800 7449 50  0000 L CNN
+F 1 "MountingHole_Pad" H 800 7358 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 700 7400 50  0001 C CNN
+F 3 "~" H 700 7400 50  0001 C CNN
+	1    700  7400
+	1    0    0    -1  
+$EndComp
+Text Label 6600 4300 0    50   ~ 0
+SDA
+Text Label 6600 4400 0    50   ~ 0
+SCL
+NoConn ~ 6600 3600
+NoConn ~ 6600 3100
+$Comp
+L power:GND #PWR?
+U 1 1 6536B0AD
+P 6400 2500
+F 0 "#PWR?" H 6400 2250 50  0001 C CNN
+F 1 "GND" H 6405 2327 50  0000 C CNN
+F 2 "" H 6400 2500 50  0001 C CNN
+F 3 "" H 6400 2500 50  0001 C CNN
+	1    6400 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 6537E176
+P 6000 2600
+F 0 "C?" H 6092 2646 50  0000 L CNN
+F 1 "100nf" H 6092 2555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6000 2600 50  0001 C CNN
+F 3 "~" H 6000 2600 50  0001 C CNN
+	1    6000 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 65386D5D
+P 6400 2600
+F 0 "C?" H 6492 2646 50  0000 L CNN
+F 1 "1uf" H 6492 2555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6400 2600 50  0001 C CNN
+F 3 "~" H 6400 2600 50  0001 C CNN
+	1    6400 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 2500 6400 2500
+Wire Wire Line
+	6400 2700 6000 2700
+Connection ~ 6400 2700
+Connection ~ 6000 2700
+Connection ~ 6400 2500
+Text Label 6600 5000 0    50   ~ 0
+INT
+Text Label 1350 800  0    50   ~ 0
+M1
+Text Label 1350 900  0    50   ~ 0
+M2
+Text Label 3150 1300 0    50   ~ 0
+TX
+Text Label 3150 1400 0    50   ~ 0
+INT
+Text Label 3150 1200 0    50   ~ 0
+RX
+$Sheet
+S 700  750  650  1350
+U 651A5340
+F0 "Power&Motor" 50
+F1 "Power&Motor.sch" 50
+F2 "Motor2" I R 1350 900 50 
+F3 "Motor1" I R 1350 800 50 
+F4 "GNDPWR" O R 1350 2000 50 
+F5 "ISO_5V_GND" O R 1350 1800 50 
+F6 "ISO_5V" O R 1350 1700 50 
+F7 "ISO_3.3V_GND" O R 1350 1600 50 
+F8 "ISO_3.3V" O R 1350 1500 50 
+F9 "12V_PWR" O R 1350 1900 50 
+$EndSheet
+Text Label 3150 800  0    50   ~ 0
+SCL
+Text Label 3150 900  0    50   ~ 0
+SDA
+Text Label 3150 1100 0    50   ~ 0
+USER_3
+Text Label 3150 1000 0    50   ~ 0
+USER_4
+Wire Wire Line
+	1350 2000 2200 2000
+Wire Wire Line
+	2200 1900 1350 1900
+Wire Wire Line
+	1350 1800 2200 1800
+Wire Wire Line
+	2200 1700 1350 1700
+Wire Wire Line
+	1350 1600 1700 1600
+Wire Wire Line
+	2200 1500 1450 1500
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65CA10CD
+P 1450 1500
+F 0 "#PWR?" H 1450 1350 50  0001 C CNN
+F 1 "+3.3V" H 1465 1673 50  0000 C CNN
+F 2 "" H 1450 1500 50  0001 C CNN
+F 3 "" H 1450 1500 50  0001 C CNN
+	1    1450 1500
+	1    0    0    -1  
+$EndComp
+Connection ~ 1450 1500
+Wire Wire Line
+	1450 1500 1350 1500
+$Comp
+L power:GND #PWR?
+U 1 1 65CA1798
+P 1700 1600
+F 0 "#PWR?" H 1700 1350 50  0001 C CNN
+F 1 "GND" H 1705 1427 50  0000 C CNN
+F 2 "" H 1700 1600 50  0001 C CNN
+F 3 "" H 1700 1600 50  0001 C CNN
+	1    1700 1600
+	-1   0    0    1   
+$EndComp
+Connection ~ 1700 1600
+Wire Wire Line
+	1700 1600 2200 1600
+$Comp
+L Connector:TestPoint_Small TP?
+U 1 1 653AC63C
+P 4850 2300
+F 0 "TP?" H 4898 2346 50  0000 L CNN
+F 1 "3.3V_GND" H 4898 2255 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 5050 2300 50  0001 C CNN
+F 3 "~" H 5050 2300 50  0001 C CNN
+	1    4850 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 653ADBFA
+P 4850 2300
+F 0 "#PWR?" H 4850 2050 50  0001 C CNN
+F 1 "GND" V 4855 2172 50  0000 R CNN
+F 2 "" H 4850 2300 50  0001 C CNN
+F 3 "" H 4850 2300 50  0001 C CNN
+	1    4850 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint_Small TP?
+U 1 1 653B34AF
+P 4850 2500
+F 0 "TP?" H 4898 2546 50  0000 L CNN
+F 1 "3.3V_ISO" H 4898 2455 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 5050 2500 50  0001 C CNN
+F 3 "~" H 5050 2500 50  0001 C CNN
+	1    4850 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 653B3CCD
+P 4850 2500
+F 0 "#PWR?" H 4850 2350 50  0001 C CNN
+F 1 "+3.3V" V 4865 2628 50  0000 L CNN
+F 2 "" H 4850 2500 50  0001 C CNN
+F 3 "" H 4850 2500 50  0001 C CNN
+	1    4850 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Varistor_US RV?
+U 1 1 653AB827
+P 7200 3550
+AR Path="/651A5340/653AB827" Ref="RV?"  Part="1" 
+AR Path="/653AB827" Ref="RV2"  Part="1" 
+AR Path="/65975FF8/653AB827" Ref="RV?"  Part="1" 
+F 0 "RV?" V 6942 3550 50  0000 C CNN
+F 1 "Varistor" V 7033 3550 50  0000 C CNN
+F 2 "Fuse:Fuse_0603_1608Metric" V 7130 3550 50  0001 C CNN
+F 3 "~" H 7200 3550 50  0001 C CNN
+	1    7200 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 65CB8939
+P 7400 3800
+F 0 "#PWR?" H 7400 3550 50  0001 C CNN
+F 1 "GND" V 7405 3672 50  0000 R CNN
+F 2 "" H 7400 3800 50  0001 C CNN
+F 3 "" H 7400 3800 50  0001 C CNN
+	1    7400 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 65CB7F74
+P 7200 3700
+F 0 "#PWR?" H 7200 3550 50  0001 C CNN
+F 1 "+3.3V" V 7215 3828 50  0000 L CNN
+F 2 "" H 7200 3700 50  0001 C CNN
+F 3 "" H 7200 3700 50  0001 C CNN
+	1    7200 3700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7450 3800 7400 3800
+Text Label 7450 4000 2    50   ~ 0
+RX_DEBUG
+Text Label 7450 3900 2    50   ~ 0
+TX_DEBUG
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 63C35360
+P 7650 3800
+AR Path="/6340EBD4/63C35360" Ref="J?"  Part="1" 
+AR Path="/63C35360" Ref="J9"  Part="1" 
+AR Path="/63C324D1/63C35360" Ref="J?"  Part="1" 
+AR Path="/65975FF8/63C35360" Ref="J?"  Part="1" 
+F 0 "J?" H 7850 3800 50  0000 R CNN
+F 1 "DEBUG" H 8000 3700 50  0000 R CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53398-0471_1x04-1MP_P1.25mm_Vertical" H 7650 3800 50  0001 C CNN
+F 3 "~" H 7650 3800 50  0001 C CNN
+	1    7650 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 3700 7450 3700
+Connection ~ 7200 3700
+$Comp
+L power:GND #PWR?
+U 1 1 653B18EE
+P 7200 3400
+F 0 "#PWR?" H 7200 3150 50  0001 C CNN
+F 1 "GND" V 7205 3272 50  0000 R CNN
+F 2 "" H 7200 3400 50  0001 C CNN
+F 3 "" H 7200 3400 50  0001 C CNN
+	1    7200 3400
+	0    1    1    0   
+$EndComp
+$Sheet
+S 2200 750  950  1350
+U 653C5733
+F0 "Communication" 50
+F1 "Communication.sch" 50
+F2 "MCP_Interrupt" O R 3150 1400 50 
+F3 "USER_232_RX" O R 3150 1000 50 
+F4 "USER_232_TX" I R 3150 1100 50 
+F5 "3.3V_Comm_GND" I L 2200 1600 50 
+F6 "3.3V_Comm" I L 2200 1500 50 
+F7 "5V_Comm" I L 2200 1700 50 
+F8 "5V_Comm_GND" I L 2200 1800 50 
+F9 "SDA" T R 3150 900 50 
+F10 "SCL" T R 3150 800 50 
+F11 "12V_PanelBoard" I L 2200 1900 50 
+F12 "12V_PanelBoard_GND" I L 2200 2000 50 
+F13 "RFID_TAG_RX" O R 3150 1200 50 
+F14 "RFID_TAG_TX" I R 3150 1300 50 
+$EndSheet
+$Comp
+L Device:Jumper_NO_Small JP?
+U 1 1 65512544
+P 4350 4800
+F 0 "JP?" V 4304 4848 50  0000 L CNN
+F 1 "IO0" V 4395 4848 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 4350 4800 50  0001 C CNN
+F 3 "~" H 4350 4800 50  0001 C CNN
+	1    4350 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP?
+U 1 1 655131C9
+P 4700 4800
+F 0 "JP?" V 4654 4848 50  0000 L CNN
+F 1 "EN" V 4745 4848 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 4700 4800 50  0001 C CNN
+F 3 "~" H 4700 4800 50  0001 C CNN
+	1    4700 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 65513684
+P 4350 4900
+F 0 "#PWR?" H 4350 4650 50  0001 C CNN
+F 1 "GND" H 4355 4727 50  0000 C CNN
+F 2 "" H 4350 4900 50  0001 C CNN
+F 3 "" H 4350 4900 50  0001 C CNN
+	1    4350 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 65513D63
+P 4700 4900
+F 0 "#PWR?" H 4700 4650 50  0001 C CNN
+F 1 "GND" H 4705 4727 50  0000 C CNN
+F 2 "" H 4700 4900 50  0001 C CNN
+F 3 "" H 4700 4900 50  0001 C CNN
+	1    4700 4900
+	1    0    0    -1  
+$EndComp
+Text Label 4350 4700 0    50   ~ 0
+IO0
+Text Label 4700 4700 0    50   ~ 0
+EN
+$Comp
+L Device:LED_Small D?
+U 1 1 6551D6AB
+P 8600 3550
+F 0 "D?" V 8554 3648 50  0000 L CNN
+F 1 "STATUS" V 8645 3648 50  0000 L CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 8600 3550 50  0001 C CNN
+F 3 "~" V 8600 3550 50  0001 C CNN
+	1    8600 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6551E00F
+P 8600 3250
+F 0 "#PWR?" H 8600 3000 50  0001 C CNN
+F 1 "GND" H 8605 3077 50  0000 C CNN
+F 2 "" H 8600 3250 50  0001 C CNN
+F 3 "" H 8600 3250 50  0001 C CNN
+	1    8600 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 6551E65E
+P 8600 3350
+F 0 "R?" H 8668 3396 50  0000 L CNN
+F 1 "100" H 8668 3305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8600 3350 50  0001 C CNN
+F 3 "~" H 8600 3350 50  0001 C CNN
+	1    8600 3350
+	1    0    0    -1  
+$EndComp
+Text Label 6600 4100 0    50   ~ 0
+STATUS
+Text Label 8600 3650 3    50   ~ 0
+STATUS
+$EndSCHEMATC
